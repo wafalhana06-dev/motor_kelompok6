@@ -286,9 +286,9 @@ ul li::marker {
 }
 
 /* ============================================================
-   PORTFOLIO SECTION
+   PORTFOLIO / CATALOG SECTION
    ============================================================ */
-#portfolio {
+#catalog {
   background: var(--hd-dark);
   border-bottom: 1px solid var(--hd-mid);
   padding-top: 4rem !important;
@@ -435,7 +435,7 @@ ul li::marker {
    CATALOG SECTION — Harley-Davidson Motor Catalog
    ============================================================ */
 
-#Our\ Catalog {
+#catalog {
   background: var(--hd-dark);
   border-top: 1px solid var(--hd-mid);
   border-bottom: 1px solid var(--hd-mid);
