@@ -28,7 +28,10 @@
 </head>
 
 <body id="home" class="d-flex flex-column h-100">
-    <!-- Navbar -->
+
+    <!-- ══════════════════════════════════════
+         NAVBAR
+         ══════════════════════════════════════ -->
     <nav class="navbar navbar-expand-lg navbar-light py-4 bg-nav">
         <div class="container">
             <!-- Brand -->
@@ -49,7 +52,13 @@
                         <a class="nav-link mx-3" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link mx-3" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link mx-3" href="#catalog">Catalog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="#contact">Contact</a>
                     </li>
                 </ul>
                 <!-- Social Media -->
@@ -75,7 +84,7 @@
     <main class="flex-shrink-0">
 
         <!-- ══════════════════════════════════════
-             HOME / HERO SECTION
+             HOME / HERO
              ══════════════════════════════════════ -->
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5">
@@ -93,7 +102,7 @@
         </div>
 
         <!-- ══════════════════════════════════════
-             SERVICES SECTION
+             SERVICES
              ══════════════════════════════════════ -->
         <div id="services" class="container text-center py-5">
             <div class="row">
@@ -123,7 +132,7 @@
                             <div class="feature-icon-1 bg-primary bg-gradient mb-4">
                                 <i class="bi bi-tools"></i>
                             </div>
-                            <h3>CUSTOM BUILD & RESTORATION</h3>
+                            <h3>CUSTOM BUILD &amp; RESTORATION</h3>
                             <p>Bosan dengan tampilan standar? Rancang motor impianmu dari nol — fabrikasi rangka, penggantian bodi, pengecatan kustom, hingga restorasi motor klasik Harley yang legendaris.</p>
                         </div>
                     </div>
@@ -135,7 +144,7 @@
                             <div class="feature-icon-1 bg-primary bg-gradient mb-4">
                                 <i class="bi bi-gear-wide-connected"></i>
                             </div>
-                            <h3>SERVICE & SPARE PARTS</h3>
+                            <h3>SERVICE &amp; SPARE PARTS</h3>
                             <p>Jaga performa mesin V-Twin-mu agar tetap gahar. Servis profesional, perbaikan mesin, serta ketersediaan suku cadang dan aksesori orisinal Harley-Davidson.</p>
                         </div>
                     </div>
@@ -144,7 +153,68 @@
         </div>
 
         <!-- ══════════════════════════════════════
-             CATALOG SECTION
+             ABOUT US
+             ══════════════════════════════════════ -->
+        <section id="about" class="py-5">
+          <div class="container">
+            <div class="row align-items-center gy-4">
+
+              <!-- Teks Utama About Us -->
+              <div class="col-lg-7">
+                <h3 class="fw-bold mb-4">ABOUT US</h3>
+                <h4 class="fw-bold text-uppercase mb-3">Selamat Datang di WebHerley Garage</h4>
+                <p class="lead mb-3">
+                  Rumah bagi para pecinta otomotif yang mengutamakan kualitas, ketelitian, dan performa tinggi di setiap detail kendaraan.
+                </p>
+                <p class="mb-4">
+                  Kami hadir dengan komitmen memberikan perawatan, servis presisi, dan solusi teknis terbaik untuk kendaraan kesayangan Anda. Berbekal pengalaman, teknisi berdedikasi tinggi, serta penggunaan peralatan berstandar profesional, kami memastikan kendaraan Anda tidak hanya diperbaiki, tetapi dirawat sepenuh hati agar selalu siap melibas jalanan dengan performa optimal.
+                </p>
+
+                <!-- Keunggulan / Points -->
+                <div class="row g-3">
+                  <div class="col-md-4">
+                    <div class="d-flex align-items-center">
+                      <span class="fs-3 me-2">⚙️</span>
+                      <div>
+                        <h5 class="mb-0 fs-6">Pelayanan Presisi</h5>
+                        <small class="text-muted">Transparan &amp; jujur</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="d-flex align-items-center">
+                      <span class="fs-3 me-2">👨‍🔧</span>
+                      <div>
+                        <h5 class="mb-0 fs-6">Teknisi Handal</h5>
+                        <small class="text-muted">Berpengalaman</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="d-flex align-items-center">
+                      <span class="fs-3 me-2">🛠️</span>
+                      <div>
+                        <h5 class="mb-0 fs-6">Alat Modern</h5>
+                        <small class="text-muted">Hasil rapi &amp; efisien</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Gambar About Us -->
+              <div class="col-lg-5 text-center">
+                <div class="p-3 border border-secondary rounded-1">
+                  <img src="assets/img/herley.jpg" alt="WebHerley Garage" class="img-fluid rounded-1">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- ══════════════════════════════════════
+             CATALOG
              ══════════════════════════════════════ -->
         <div id="catalog" class="container text-center py-5">
             <div class="row">
@@ -156,14 +226,11 @@
 
             <div class="row text-start py-4">
 
-                <!-- ── Street Bob ── -->
+                <!-- Street Bob -->
                 <div class="col-lg-4 mb-5">
                     <div class="card hd-catalog-card h-100 border-0">
                         <div class="hd-catalog-img-wrap">
-                            <img id="img-street-bob"
-                                 src="assets/img/katalog/street bob 1.jpg"
-                                 alt="Street Bob"
-                                 class="card-img-top img-fluid hd-catalog-img">
+                            <img id="img-street-bob" src="assets/img/katalog/street bob 1.jpg" alt="Street Bob" class="card-img-top img-fluid hd-catalog-img">
                         </div>
                         <div class="card-body px-1 pt-3 pb-2">
                             <p class="fw-semibold hd-catalog-name">STREET BOB™</p>
@@ -176,14 +243,11 @@
                     </div>
                 </div>
 
-                <!-- ── Low Rider ── -->
+                <!-- Low Rider -->
                 <div class="col-lg-4 mb-5">
                     <div class="card hd-catalog-card h-100 border-0">
                         <div class="hd-catalog-img-wrap">
-                            <img id="img-low-rider"
-                                 src="assets/img/katalog/low rider 1.jpg"
-                                 alt="Low Rider"
-                                 class="card-img-top img-fluid hd-catalog-img">
+                            <img id="img-low-rider" src="assets/img/katalog/low rider 1.jpg" alt="Low Rider" class="card-img-top img-fluid hd-catalog-img">
                         </div>
                         <div class="card-body px-1 pt-3 pb-2">
                             <p class="fw-semibold hd-catalog-name">LOW RIDER™ ST</p>
@@ -196,14 +260,11 @@
                     </div>
                 </div>
 
-                <!-- ── Road Glide ── -->
+                <!-- Road Glide -->
                 <div class="col-lg-4 mb-5">
                     <div class="card hd-catalog-card h-100 border-0">
                         <div class="hd-catalog-img-wrap">
-                            <img id="img-road-glide"
-                                 src="assets/img/katalog/road glide 1.jpg"
-                                 alt="Road Glide"
-                                 class="card-img-top img-fluid hd-catalog-img">
+                            <img id="img-road-glide" src="assets/img/katalog/road glide 1.jpg" alt="Road Glide" class="card-img-top img-fluid hd-catalog-img">
                         </div>
                         <div class="card-body px-1 pt-3 pb-2">
                             <p class="fw-semibold hd-catalog-name">ROAD GLIDE™</p>
@@ -216,14 +277,11 @@
                     </div>
                 </div>
 
-                <!-- ── Sportster ── -->
+                <!-- Sportster -->
                 <div class="col-lg-4 mb-5">
                     <div class="card hd-catalog-card h-100 border-0">
                         <div class="hd-catalog-img-wrap">
-                            <img id="img-sporter"
-                                 src="assets/img/katalog/sporter 1.jpg"
-                                 alt="Sportster"
-                                 class="card-img-top img-fluid hd-catalog-img">
+                            <img id="img-sporter" src="assets/img/katalog/sporter 1.jpg" alt="Sportster" class="card-img-top img-fluid hd-catalog-img">
                         </div>
                         <div class="card-body px-1 pt-3 pb-2">
                             <p class="fw-semibold hd-catalog-name">SPORTSTER™ S</p>
@@ -236,14 +294,11 @@
                     </div>
                 </div>
 
-                <!-- ── Fat Boy ── -->
+                <!-- Fat Boy -->
                 <div class="col-lg-4 mb-5">
                     <div class="card hd-catalog-card h-100 border-0">
                         <div class="hd-catalog-img-wrap">
-                            <img id="img-fat-boy"
-                                 src="assets/img/katalog/fat boy 1.jpg"
-                                 alt="Fat Boy"
-                                 class="card-img-top img-fluid hd-catalog-img">
+                            <img id="img-fat-boy" src="assets/img/katalog/fat boy 1.jpg" alt="Fat Boy" class="card-img-top img-fluid hd-catalog-img">
                         </div>
                         <div class="card-body px-1 pt-3 pb-2">
                             <p class="fw-semibold hd-catalog-name">FAT BOY™</p>
@@ -256,14 +311,11 @@
                     </div>
                 </div>
 
-                <!-- ── CVO ── -->
+                <!-- CVO -->
                 <div class="col-lg-4 mb-5">
                     <div class="card hd-catalog-card h-100 border-0">
                         <div class="hd-catalog-img-wrap">
-                            <img id="img-cvo"
-                                 src="assets/img/katalog/cvo 1.jpg"
-                                 alt="CVO"
-                                 class="card-img-top img-fluid hd-catalog-img">
+                            <img id="img-cvo" src="assets/img/katalog/cvo 1.jpg" alt="CVO" class="card-img-top img-fluid hd-catalog-img">
                         </div>
                         <div class="card-body px-1 pt-3 pb-2">
                             <p class="fw-semibold hd-catalog-name">CVO™ ROAD GLIDE</p>
@@ -278,9 +330,101 @@
             </div>
         </div>
 
+        <!-- ══════════════════════════════════════
+             CONTACT US
+             ══════════════════════════════════════ -->
+        <section id="contact" class="py-5">
+          <div class="container">
+
+            <div class="text-center mb-5">
+              <h3 class="fw-bold">CONTACT US</h3>
+              <p class="lead">Punya pertanyaan atau ingin reservasi servis? Hubungi tim WebHerley Garage!</p>
+            </div>
+
+            <div class="row g-4">
+
+              <!-- Kartu Informasi Kontak -->
+              <div class="col-lg-5">
+                <div class="card p-4 h-100">
+
+                  <!-- Email -->
+                  <div class="d-flex align-items-start mb-4">
+                    <div class="feature-icon-1 me-3 fs-4" style="width: 3.5rem; height: 3.5rem;">
+                      ✉️
+                    </div>
+                    <div>
+                      <h5 class="mb-1">EMAIL</h5>
+                      <p class="mb-0">
+                        <a href="mailto:garage@webherley.com" class="text-decoration-none text-light fw-bold">garage@webherley.com</a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <hr class="hr-dotted my-2">
+
+                  <!-- WhatsApp -->
+                  <div class="d-flex align-items-start my-4">
+                    <div class="feature-icon-1 me-3 fs-4" style="width: 3.5rem; height: 3.5rem;">
+                      📱
+                    </div>
+                    <div>
+                      <h5 class="mb-1">WHATSAPP / TELEPON</h5>
+                      <p class="mb-0">
+                        <a href="https://wa.me/6281232951732" target="_blank" class="text-decoration-none text-light fw-bold">+62 812-3295-1732</a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <hr class="hr-dotted my-2">
+
+                  <!-- Jam Kerja -->
+                  <div class="d-flex align-items-start my-4">
+                    <div class="feature-icon-1 me-3 fs-4" style="width: 3.5rem; height: 3.5rem;">
+                      🕒
+                    </div>
+                    <div>
+                      <h5 class="mb-1">JAM OPERASIONAL</h5>
+                      <p class="mb-0 text-light fw-bold">Senin – Sabtu: 09.00 – 18.00 WIB</p>
+                      <small class="text-muted">(Minggu &amp; Hari Libur Nasional: Tutup)</small>
+                    </div>
+                  </div>
+
+                  <hr class="hr-dotted my-2">
+
+                  <!-- CTA Google Maps -->
+                  <div class="mt-3">
+                    <a href="https://maps.app.goo.gl/XodbvGVNuqJGRnZq8" target="_blank" class="btn btn-primary w-100 py-2">
+                      📍 PETUNJUK ARAH GOOGLE MAPS ↗
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- Google Maps Iframe -->
+              <div class="col-lg-7">
+                <div class="card p-2 h-100">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.4719602058097!2d111.0180479!3d-7.4240368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1d30a04b023f%3A0x18b6c735358b6b45!2sAlun%20Alun%20Sragen!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+                    width="100%"
+                    height="100%"
+                    style="min-height: 380px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
     </main>
 
-    <!-- Footer -->
+    <!-- ══════════════════════════════════════
+         FOOTER
+         ══════════════════════════════════════ -->
     <footer class="footer mt-auto py-4 bg-white">
         <div class="container">
             <div class="d-flex flex-column flex-md-row align-items-center align-items-md-left text-body">
